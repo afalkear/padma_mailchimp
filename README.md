@@ -1,5 +1,5 @@
 # PadmaMailchimp
-Short description and motivation.
+Ruby on Rails plugin to access MailChimp contacts and functionality in services connected to PADMA
 
 ## Usage
 How to use my plugin.
