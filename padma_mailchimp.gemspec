@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = PadmaMailchimp::VERSION
   spec.authors     = ["Alex Falke"]
   spec.email       = ["afalkear@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of PadmaMailchimp."
-  spec.description = "TODO: Description of PadmaMailchimp."
+  spec.homepage    = "https://github.com/afalkear/padma-mailchimp"
+  spec.summary     = "MailChimp functionality for PADMA webservices"
+  spec.description = "Access MailChimp contacts and functionality within PADMA webservers"
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "rails", "~> 5.2.4", ">= 5.2.4.4"
+  spec.add_dependency "rails", "~> 4.0.0"
 
   spec.add_development_dependency "pg"
 end
